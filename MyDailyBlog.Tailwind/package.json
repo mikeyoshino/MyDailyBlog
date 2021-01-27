@@ -1,0 +1,23 @@
+{
+  "name": "mydailyblog.tailwind",
+  "version": "1.0.0",
+  "description": "Using tailwind in statiq generator.",
+  "main": "postcss.config.js",
+  "dependencies": {
+    "autoprefixer": "^10.2.3",
+    "tailwindcss": "^2.0.2"
+  },
+  "devDependencies": {
+    "postcss": "^8.2.4",
+    "postcss-cli": "^8.3.1"
+  },
+  "scripts": {
+    "tailwinds": "postcss css/input.css -o ../MyDailyBlog/Theme/input/css/Site.css"
+  },
+  "keywords": [
+    "statiq",
+    "tailwind"
+  ],
+  "author": "Mike Yoshino",
+  "license": "ISC"
+}
